@@ -47,17 +47,7 @@ import bgImage from "assets/images/ai-images/Category-bg7-crop.png";
 function AIConcepts() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "default",
-        }}
-        transparent
-        light
-      />
+      <DefaultNavbar routes={routes} transparent light />
       <MKBox
         minHeight="75vh"
         width="100%"
