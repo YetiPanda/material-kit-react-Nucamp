@@ -47,6 +47,7 @@ import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
 import SignIn from "layouts/pages/authentication/sign-in";
+import AIConcepts from "layouts/pages/landing-pages/ai-concepts";
 
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
@@ -92,6 +93,11 @@ const routes = [
             name: "author",
             route: "/pages/landing-pages/author",
             component: <Author />,
+          },
+          {
+            name: "ai concepts",
+            route: "/pages/landing-pages/ai-concepts",
+            component: <AIConcepts />,
           },
         ],
       },
