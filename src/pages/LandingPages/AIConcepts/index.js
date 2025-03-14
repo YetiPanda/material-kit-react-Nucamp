@@ -42,7 +42,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/ai-images/Category-bg7-crop.png";
+import bgImage from "assets/images/ai-images/Category-bg-5-crop.png";
 
 function AIConcepts() {
   return (
@@ -86,7 +86,8 @@ function AIConcepts() {
               AI Concepts
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              Explore the fascinating world of artificial intelligence and its transformative impact on our future
+              Explore the fascinating world of artificial intelligence and its transformative impact
+              on our future
             </MKTypography>
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               learn more
