@@ -34,36 +34,6 @@ function NeuralNetworks() {
       <Container>
         <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="hub"
-              title="Convolutional Neural Networks"
-              description="Specialized neural networks designed for processing grid-like data such as images, revolutionizing computer vision"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="settings_ethernet"
-              title="Recurrent Neural Networks"
-              description="Neural networks with feedback connections, capable of processing sequential data like text, speech, and time series"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="transform"
-              title="Transformers"
-              description="Neural network architecture that uses self-attention mechanisms, powering breakthroughs in natural language processing"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="swap_horiz"
-              title="Generative Adversarial Networks"
-              description="Neural networks that can generate new content by pitting two networks against each other in a game-like scenario"
-            />
-          </Grid>
-        </Grid>
-        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
                 image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2034&q=80"
@@ -90,13 +60,50 @@ function NeuralNetworks() {
                   The Building Blocks of AI
                 </MKTypography>
                 <MKTypography variant="body2" color="text">
-                  Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text or time series, must be translated.
+                  Neural networks are a set of algorithms, modeled loosely after the human brain,
+                  that are designed to recognize patterns. They interpret sensory data through a
+                  kind of machine perception, labeling or clustering raw input. The patterns they
+                  recognize are numerical, contained in vectors, into which all real-world data, be
+                  it images, sound, text or time series, must be translated.
                 </MKTypography>
                 <MKTypography variant="body2" color="text" mt={2}>
-                  What makes neural networks so powerful is their ability to learn from data, improving their accuracy over time without being explicitly programmed with rules. This capability has led to breakthroughs in image and speech recognition, natural language processing, and game playing, among many other domains.
+                  What makes neural networks so powerful is their ability to learn from data,
+                  improving their accuracy over time without being explicitly programmed with rules.
+                  This capability has led to breakthroughs in image and speech recognition, natural
+                  language processing, and game playing, among many other domains.
                 </MKTypography>
               </Grid>
             </Grid>
+          </Grid>
+        </Grid>
+        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="hub"
+              title="Convolutional Neural Networks"
+              description="Specialized neural networks designed for processing grid-like data such as images, revolutionizing computer vision"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="settings_ethernet"
+              title="Recurrent Neural Networks"
+              description="Neural networks with feedback connections, capable of processing sequential data like text, speech, and time series"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="transform"
+              title="Transformers"
+              description="Neural network architecture that uses self-attention mechanisms, powering breakthroughs in natural language processing"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="swap_horiz"
+              title="Generative Adversarial Networks"
+              description="Neural networks that can generate new content by pitting two networks against each other in a game-like scenario"
+            />
           </Grid>
         </Grid>
       </Container>

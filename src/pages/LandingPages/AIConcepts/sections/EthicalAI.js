@@ -34,36 +34,6 @@ function EthicalAI() {
       <Container>
         <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="balance"
-              title="Fairness & Bias"
-              description="Ensuring AI systems treat all individuals and groups fairly, without discriminating based on protected characteristics"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="security"
-              title="Privacy & Security"
-              description="Protecting personal data used by AI systems and ensuring they are secure against unauthorized access or manipulation"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="visibility"
-              title="Transparency & Explainability"
-              description="Making AI decision-making processes understandable to humans, especially in high-stakes contexts"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="gavel"
-              title="Accountability & Governance"
-              description="Establishing clear responsibility for AI systems and frameworks for addressing harms or unintended consequences"
-            />
-          </Grid>
-        </Grid>
-        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
                 image="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
@@ -90,13 +60,51 @@ function EthicalAI() {
                   Building AI for Good
                 </MKTypography>
                 <MKTypography variant="body2" color="text">
-                  Ethical AI is an approach to artificial intelligence that emphasizes the importance of incorporating ethical principles into the design, development, and deployment of AI systems. It recognizes that as AI becomes more powerful and integrated into our lives, we must ensure these technologies align with human values and societal well-being.
+                  Ethical AI is an approach to artificial intelligence that emphasizes the
+                  importance of incorporating ethical principles into the design, development, and
+                  deployment of AI systems. It recognizes that as AI becomes more powerful and
+                  integrated into our lives, we must ensure these technologies align with human
+                  values and societal well-being.
                 </MKTypography>
                 <MKTypography variant="body2" color="text" mt={2}>
-                  Key ethical considerations include fairness and non-discrimination, transparency and explainability, privacy and data protection, safety and security, human autonomy, and accountability. By addressing these concerns proactively, we can harness the benefits of AI while mitigating potential risks and ensuring these technologies serve humanity&apos;s best interests.
+                  Key ethical considerations include fairness and non-discrimination, transparency
+                  and explainability, privacy and data protection, safety and security, human
+                  autonomy, and accountability. By addressing these concerns proactively, we can
+                  harness the benefits of AI while mitigating potential risks and ensuring these
+                  technologies serve humanity&apos;s best interests.
                 </MKTypography>
               </Grid>
             </Grid>
+          </Grid>
+        </Grid>
+        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="balance"
+              title="Fairness & Bias"
+              description="Ensuring AI systems treat all individuals and groups fairly, without discriminating based on protected characteristics"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="security"
+              title="Privacy & Security"
+              description="Protecting personal data used by AI systems and ensuring they are secure against unauthorized access or manipulation"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="visibility"
+              title="Transparency & Explainability"
+              description="Making AI decision-making processes understandable to humans, especially in high-stakes contexts"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="gavel"
+              title="Accountability & Governance"
+              description="Establishing clear responsibility for AI systems and frameworks for addressing harms or unintended consequences"
+            />
           </Grid>
         </Grid>
       </Container>

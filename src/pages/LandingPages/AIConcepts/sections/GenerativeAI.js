@@ -34,36 +34,6 @@ function GenerativeAI() {
       <Container>
         <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="brush"
-              title="Text-to-Image Generation"
-              description="AI systems that create realistic images from text descriptions, enabling new forms of visual creativity and design"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="music_note"
-              title="AI Music Composition"
-              description="Systems that generate original music in various styles, creating new melodies, harmonies, and complete compositions"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="description"
-              title="Large Language Models"
-              description="AI systems trained on vast text corpora that can generate human-like text, answer questions, and assist with writing tasks"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="movie"
-              title="Video Generation"
-              description="AI that can create realistic videos from text prompts or images, with applications in entertainment, education, and marketing"
-            />
-          </Grid>
-        </Grid>
-        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
                 image="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80"
@@ -90,13 +60,50 @@ function GenerativeAI() {
                   AI as a Creative Partner
                 </MKTypography>
                 <MKTypography variant="body2" color="text">
-                  Generative AI refers to artificial intelligence systems that can create new content, including text, images, music, code, and more. These systems learn patterns from existing data and then generate novel outputs that reflect those patterns while introducing variations and new combinations.
+                  Generative AI refers to artificial intelligence systems that can create new
+                  content, including text, images, music, code, and more. These systems learn
+                  patterns from existing data and then generate novel outputs that reflect those
+                  patterns while introducing variations and new combinations.
                 </MKTypography>
                 <MKTypography variant="body2" color="text" mt={2}>
-                  The recent advances in generative AI have transformed how we think about creativity and content creation. From helping artists explore new ideas to assisting writers with drafting content, generative AI is becoming an invaluable tool across creative industries. As these technologies continue to evolve, they promise to further blur the line between human and machine creativity.
+                  The recent advances in generative AI have transformed how we think about
+                  creativity and content creation. From helping artists explore new ideas to
+                  assisting writers with drafting content, generative AI is becoming an invaluable
+                  tool across creative industries. As these technologies continue to evolve, they
+                  promise to further blur the line between human and machine creativity.
                 </MKTypography>
               </Grid>
             </Grid>
+          </Grid>
+        </Grid>
+        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="brush"
+              title="Text-to-Image Generation"
+              description="AI systems that create realistic images from text descriptions, enabling new forms of visual creativity and design"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="music_note"
+              title="AI Music Composition"
+              description="Systems that generate original music in various styles, creating new melodies, harmonies, and complete compositions"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="description"
+              title="Large Language Models"
+              description="AI systems trained on vast text corpora that can generate human-like text, answer questions, and assist with writing tasks"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="movie"
+              title="Video Generation"
+              description="AI that can create realistic videos from text prompts or images, with applications in entertainment, education, and marketing"
+            />
           </Grid>
         </Grid>
       </Container>

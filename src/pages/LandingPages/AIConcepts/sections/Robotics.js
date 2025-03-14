@@ -34,36 +34,6 @@ function Robotics() {
       <Container>
         <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="precision_manufacturing"
-              title="Industrial Automation"
-              description="Robotic systems that automate manufacturing processes, increasing efficiency, precision, and safety in industrial settings"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="healing"
-              title="Medical Robotics"
-              description="Robotic systems used in surgery, rehabilitation, and patient care, enhancing precision and enabling minimally invasive procedures"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="directions_car"
-              title="Autonomous Vehicles"
-              description="Self-driving cars, drones, and other vehicles that navigate and operate without human intervention"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="home"
-              title="Domestic Robots"
-              description="Robots designed for household tasks like cleaning, security, and entertainment, improving quality of life"
-            />
-          </Grid>
-        </Grid>
-        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
                 image="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
@@ -90,13 +60,49 @@ function Robotics() {
                   The Future of Automation
                 </MKTypography>
                 <MKTypography variant="body2" color="text">
-                  Robotics is a multidisciplinary field that combines mechanical engineering, electrical engineering, computer science, and artificial intelligence to design, construct, and operate robots. These machines are designed to perform tasks that would be difficult, dangerous, or impossible for humans to do directly.
+                  Robotics is a multidisciplinary field that combines mechanical engineering,
+                  electrical engineering, computer science, and artificial intelligence to design,
+                  construct, and operate robots. These machines are designed to perform tasks that
+                  would be difficult, dangerous, or impossible for humans to do directly.
                 </MKTypography>
                 <MKTypography variant="body2" color="text" mt={2}>
-                  As AI advances, robots are becoming increasingly autonomous, adaptable, and capable of learning from their environments. From manufacturing and healthcare to agriculture and space exploration, robotics is revolutionizing industries and creating new possibilities for human-machine collaboration.
+                  As AI advances, robots are becoming increasingly autonomous, adaptable, and
+                  capable of learning from their environments. From manufacturing and healthcare to
+                  agriculture and space exploration, robotics is revolutionizing industries and
+                  creating new possibilities for human-machine collaboration.
                 </MKTypography>
               </Grid>
             </Grid>
+          </Grid>
+        </Grid>
+        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="precision_manufacturing"
+              title="Industrial Automation"
+              description="Robotic systems that automate manufacturing processes, increasing efficiency, precision, and safety in industrial settings"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="healing"
+              title="Medical Robotics"
+              description="Robotic systems used in surgery, rehabilitation, and patient care, enhancing precision and enabling minimally invasive procedures"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="directions_car"
+              title="Autonomous Vehicles"
+              description="Self-driving cars, drones, and other vehicles that navigate and operate without human intervention"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="home"
+              title="Domestic Robots"
+              description="Robots designed for household tasks like cleaning, security, and entertainment, improving quality of life"
+            />
           </Grid>
         </Grid>
       </Container>
