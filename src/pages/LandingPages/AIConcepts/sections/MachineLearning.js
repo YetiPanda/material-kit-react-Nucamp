@@ -34,36 +34,6 @@ function MachineLearning() {
       <Container>
         <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="smart_toy"
-              title="Supervised Learning"
-              description="Algorithms trained on labeled data to make predictions or decisions without being explicitly programmed"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="scatter_plot"
-              title="Unsupervised Learning"
-              description="Algorithms that find patterns in data without explicit labels, discovering hidden structures in data"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="sports_esports"
-              title="Reinforcement Learning"
-              description="Algorithms that learn optimal actions through trial and error, maximizing rewards in dynamic environments"
-            />
-          </Grid>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
-            <DefaultInfoCard
-              icon="bar_chart"
-              title="Deep Learning"
-              description="Neural networks with multiple layers that can learn complex patterns and representations from large amounts of data"
-            />
-          </Grid>
-        </Grid>
-        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
                 image="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
@@ -97,6 +67,36 @@ function MachineLearning() {
                 </MKTypography>
               </Grid>
             </Grid>
+          </Grid>
+        </Grid>
+        <Grid container item xs={11} spacing={3} sx={{ mx: "auto", mt: 6 }}>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="smart_toy"
+              title="Supervised Learning"
+              description="Algorithms trained on labeled data to make predictions or decisions without being explicitly programmed"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="scatter_plot"
+              title="Unsupervised Learning"
+              description="Algorithms that find patterns in data without explicit labels, discovering hidden structures in data"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="sports_esports"
+              title="Reinforcement Learning"
+              description="Algorithms that learn optimal actions through trial and error, maximizing rewards in dynamic environments"
+            />
+          </Grid>
+          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+            <DefaultInfoCard
+              icon="bar_chart"
+              title="Deep Learning"
+              description="Neural networks with multiple layers that can learn complex patterns and representations from large amounts of data"
+            />
           </Grid>
         </Grid>
       </Container>
