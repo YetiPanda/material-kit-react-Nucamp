@@ -41,8 +41,8 @@ import Icon from "@mui/material/Icon";
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
-import ContactUs from "layouts/pages/landing-pages/contact-us";
-import Author from "layouts/pages/landing-pages/author";
+// import ContactUs from "layouts/pages/landing-pages/contact-us";
+// import Author from "layouts/pages/landing-pages/author";
 import SignIn from "layouts/pages/authentication/sign-in";
 import AIConcepts from "layouts/pages/landing-pages/ai-concepts";
 
@@ -61,16 +61,16 @@ const routes = [
             route: "/pages/landing-pages/about-us",
             component: <AboutUs />,
           },
-          {
-            name: "contact us",
-            route: "/pages/landing-pages/contact-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "author",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
-          },
+          // {
+          //   name: "contact us",
+          //   route: "/pages/landing-pages/contact-us",
+          //   component: <ContactUs />,
+          // },
+          // {
+          //   name: "author",
+          //   route: "/pages/landing-pages/author",
+          //   component: <Author />,
+          // },
           {
             name: "ai concepts",
             route: "/pages/landing-pages/ai-concepts",
