@@ -1,5 +1,4 @@
-/* eslint-disable no-param-reassign */
-/**
+/*
 =========================================================
 * Material Kit 2 React - v2.1.0
 =========================================================
@@ -14,21 +13,8 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// Material Kit 2 React components
-import MKBox from "components/MKBox";
+import AIConcepts from "pages/LandingPages/AIConcepts";
 
-// Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-
-// Routes
-import routes from "routes";
-
-function NavbarDark() {
-  return (
-    <MKBox variant="gradient" bgColor="dark" shadow="sm" py={0.25}>
-      <DefaultNavbar routes={routes} transparent relative light center />
-    </MKBox>
-  );
+export default function AIconceptsPage() {
+  return <AIConcepts />;
 }
-
-export default NavbarDark;
