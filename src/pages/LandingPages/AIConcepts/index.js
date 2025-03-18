@@ -22,7 +22,7 @@ import Card from "@mui/material/Card";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import MKButton from "components/MKButton";
+// import MKButton from "components/MKButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
@@ -89,12 +89,12 @@ function AIConcepts() {
               Explore the fascinating world of artificial intelligence and its transformative impact
               on our future
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+            {/* <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               learn more
             </MKButton>
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Connect with us
-            </MKTypography>
+            </MKTypography> */}
             {/* <MKBox display="flex" justifyContent="center" alignItems="center">
               <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
                 <i className="fab fa-facebook" />

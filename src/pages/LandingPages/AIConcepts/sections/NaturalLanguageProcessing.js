@@ -46,9 +46,9 @@ function NaturalLanguageProcessing() {
                 title="Discover More"
                 description="Natural Language Processing is revolutionizing how we interact with technology, enabling machines to understand, interpret, and generate human language in ways that are meaningful and useful."
                 action={{
-                  type: "internal",
+                  type: "external",
                   label: "learn more",
-                  route: "/",
+                  route: "https://www.ibm.com/natural-language-processing",
                 }}
               />
             </RotatingCard>

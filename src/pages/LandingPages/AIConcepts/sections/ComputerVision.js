@@ -46,9 +46,9 @@ function ComputerVision() {
                 title="Discover More"
                 description="Computer Vision enables machines to interpret and understand visual information from the world, revolutionizing industries from autonomous vehicles to retail analytics."
                 action={{
-                  type: "internal",
+                  type: "external",
                   label: "learn more",
-                  route: "/",
+                  route: "https://www.ibm.com/think/topics/computer-vision",
                 }}
               />
             </RotatingCard>

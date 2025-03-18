@@ -46,9 +46,9 @@ function EthicalAI() {
                 title="Discover More"
                 description="As AI becomes more powerful and pervasive, ethical considerations are essential to ensure these technologies benefit humanity while minimizing potential harms."
                 action={{
-                  type: "internal",
+                  type: "external",
                   label: "learn more",
-                  route: "/",
+                  route: "https://www.ibm.com/think/topics/ai-ethics",
                 }}
               />
             </RotatingCard>
