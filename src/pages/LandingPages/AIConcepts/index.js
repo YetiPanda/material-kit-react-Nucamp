@@ -95,7 +95,7 @@ function AIConcepts() {
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Connect with us
             </MKTypography>
-            <MKBox display="flex" justifyContent="center" alignItems="center">
+            {/* <MKBox display="flex" justifyContent="center" alignItems="center">
               <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
                 <i className="fab fa-facebook" />
               </MKTypography>
@@ -108,7 +108,7 @@ function AIConcepts() {
               <MKTypography component="a" variant="body1" color="white" href="#">
                 <i className="fab fa-linkedin" />
               </MKTypography>
-            </MKBox>
+            </MKBox> */}
           </Grid>
         </Container>
       </MKBox>
