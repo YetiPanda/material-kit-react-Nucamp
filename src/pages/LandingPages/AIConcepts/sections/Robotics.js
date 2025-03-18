@@ -46,9 +46,9 @@ function Robotics() {
                 title="Discover More"
                 description="AI-powered robotics is transforming how we work, live, and interact with our environment, automating physical tasks and extending human capabilities."
                 action={{
-                  type: "internal",
+                  type: "external",
                   label: "learn more",
-                  route: "/",
+                  route: "https://www.ibm.com/products/robotic-process-automation",
                 }}
               />
             </RotatingCard>

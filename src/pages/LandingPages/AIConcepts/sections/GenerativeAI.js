@@ -46,9 +46,9 @@ function GenerativeAI() {
                 title="Discover More"
                 description="Generative AI is revolutionizing creative fields by enabling machines to produce original content across text, images, music, and more, expanding the boundaries of human creativity."
                 action={{
-                  type: "internal",
+                  type: "external",
                   label: "learn more",
-                  route: "/",
+                  route: "https://www.ibm.com/think/topics/generative-ai",
                 }}
               />
             </RotatingCard>

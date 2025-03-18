@@ -46,9 +46,9 @@ function MachineLearning() {
                 title="Discover More"
                 description="Machine learning is transforming industries from healthcare to finance, enabling predictive analytics, personalized recommendations, and automated decision-making systems."
                 action={{
-                  type: "internal",
+                  type: "external",
                   label: "learn more",
-                  route: "/",
+                  route: "https://www.ibm.com/think/topics/machine-learning",
                 }}
               />
             </RotatingCard>
@@ -60,10 +60,16 @@ function MachineLearning() {
                   The Power of Machine Learning
                 </MKTypography>
                 <MKTypography variant="body2" color="text">
-                  Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. It focuses on developing algorithms that can access data, learn from it, and make predictions or decisions.
+                  Machine learning is a subset of artificial intelligence that enables systems to
+                  learn and improve from experience without being explicitly programmed. It focuses
+                  on developing algorithms that can access data, learn from it, and make predictions
+                  or decisions.
                 </MKTypography>
                 <MKTypography variant="body2" color="text" mt={2}>
-                  The applications of machine learning are vast and growing rapidly, from recommendation systems and fraud detection to autonomous vehicles and medical diagnosis. As data becomes more abundant and computing power increases, machine learning continues to advance and transform industries.
+                  The applications of machine learning are vast and growing rapidly, from
+                  recommendation systems and fraud detection to autonomous vehicles and medical
+                  diagnosis. As data becomes more abundant and computing power increases, machine
+                  learning continues to advance and transform industries.
                 </MKTypography>
               </Grid>
             </Grid>

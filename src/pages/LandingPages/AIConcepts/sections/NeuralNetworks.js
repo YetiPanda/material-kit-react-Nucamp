@@ -46,9 +46,9 @@ function NeuralNetworks() {
                 title="Discover More"
                 description="Neural networks draw inspiration from the human brain, using interconnected nodes to process information, learn patterns, and make decisions with remarkable accuracy."
                 action={{
-                  type: "internal",
+                  type: "external",
                   label: "learn more",
-                  route: "/",
+                  route: "https://www.ibm.com/think/topics/neural-networks",
                 }}
               />
             </RotatingCard>
