@@ -1,16 +1,9 @@
 {
-  "name": "material-kit-2-react",
-  "version": "2.1.0",
-  "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "description": "React version of Material Kit 2 by Creative Tim",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/ct-material-kit-react/issues"
-  },
+  "name": "team-jax-portfolio",
+  "description": "React Material Kit 2 Template for JAX Project",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/ct-material-kit-react.git"
+    "url": "git+https://github.com/YetiPanda/material-kit-react-Nucamp.git"
   },
   "dependencies": {
     "@emotion/cache": "11.10.7",
@@ -22,6 +15,7 @@
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
+    "bootstrap": "^5.2.3",
     "chroma-js": "2.4.2",
     "firebase": "^11.4.0",
     "flatpickr": "4.6.13",
@@ -37,8 +31,8 @@
     "web-vitals": "3.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "parcel --open",
+    "build": "parcel build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
@@ -71,6 +65,16 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
+    "parcel": "^2.14.1",
     "prettier": "2.8.7"
-  }
+  },
+  "version": "1.0.0",
+  "source": "index.html",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YetiPanda/material-kit-react-Nucamp/issues"
+  },
+  "homepage": "https://github.com/YetiPanda/material-kit-react-Nucamp#readme"
 }
