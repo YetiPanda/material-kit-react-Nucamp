@@ -40,7 +40,7 @@ Coded by www.creative-tim.com
 import Icon from "@mui/material/Icon";
 
 // Pages
-import AboutUs from "layouts/pages/landing-pages/about-us";
+// import AboutUs from "layouts/pages/landing-pages/about-us";
 // import ContactUs from "layouts/pages/landing-pages/contact-us";
 // import Author from "layouts/pages/landing-pages/author";
 import SignIn from "layouts/pages/authentication/sign-in";
@@ -56,11 +56,11 @@ const routes = [
       {
         name: "landing pages",
         collapse: [
-          {
-            name: "about us",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
+          // {
+          //   name: "about us",
+          //   route: "/pages/landing-pages/about-us",
+          //   component: <AboutUs />,
+          // },
           // {
           //   name: "contact us",
           //   route: "/pages/landing-pages/contact-us",
